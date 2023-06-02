@@ -103,4 +103,7 @@ class MerkleTree {
         }
         index = Math.floor(index / 2)
       }
+      
       return siblings
+    }
+  }
